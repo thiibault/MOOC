@@ -38,5 +38,7 @@ In this folder you will find all the framing resources like diagrams and specs :
 #
 # Tree Structure
 
+![tree-diagram](../src/tree-diag-screenshot.png)
 
+#
 
