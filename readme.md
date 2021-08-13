@@ -13,18 +13,19 @@ They will be able to view the details of a course, see the comments that will be
 ### file architecture :
 
 
-├── Framing
-│   ├── Activity
-│   │   ├── authentification_module.drawio
-│   │   └── global.drawio
-│   ├── Class_diagram.drawio
-│   ├── Sequences
-│   │   ├── Authentification.drawio
-│   │   ├── Comments.drawio
-│   │   └── courses.drawio
-│   ├── topologie_cloud.drawio
-│   └── use_case_diagram.drawio
-├── readme.md
+    ├── Framing
+    │   ├── Activity
+    │   │   ├── authentification_module.drawio
+    │   │   └── global.drawio
+    │   ├── Class_diagram.drawio
+    │   ├── Sequences
+    │   │   ├── Authentification.drawio
+    │   │   ├── Comments.drawio
+    │   │   └── courses.drawio
+    │   ├── topologie_cloud.drawio
+    │   └── use_case_diagram.drawio
+    ├── readme.md
+
 
 
 
