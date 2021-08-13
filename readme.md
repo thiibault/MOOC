@@ -10,6 +10,24 @@ Creation of an course website
 Users will connect to our website and will be able to find a list of MOOCs inside. 
 They will be able to view the details of a course, see the comments that will be attached to it and can also add their own.
 
+### file architecture :
+
+
+├── Framing
+│   ├── Activity
+│   │   ├── authentification_module.drawio
+│   │   └── global.drawio
+│   ├── Class_diagram.drawio
+│   ├── Sequences
+│   │   ├── Authentification.drawio
+│   │   ├── Comments.drawio
+│   │   └── courses.drawio
+│   ├── topologie_cloud.drawio
+│   └── use_case_diagram.drawio
+├── readme.md
+
+
+
 ### User Profiles :
 
 - "Viewers" not logged in will be able to read courses and comments.
