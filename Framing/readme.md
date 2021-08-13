@@ -1,4 +1,4 @@
-# Impact Mapping
+ Impact Mapping
 
 ### Global purpose :
 Creation of an course website
@@ -11,6 +11,4 @@ They will be able to view the details of a course, see the comments that will be
  - "lambda" users will be able to add comments and rate the courses.
  -  "super-users" will be able to promote users, delete comments, and add, update and delete an existing course.
 
-![use case diagram](https://raw.github.com/thiibault/MOOC/master/Framing/use_case_diagram.drawio)
-
-
+![use case diagram](src/use_case_diagram.png)
