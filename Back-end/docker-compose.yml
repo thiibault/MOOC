@@ -9,9 +9,7 @@ services:
     image: "simplon/postgres:0.0.1"
     restart: always
     environment:
-      POSTGRES_DB: simplon
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: 2zerezGZEGZ55??
+      env_file : .env
       PGDATA: /var/lib/postgresql/data
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
@@ -20,5 +18,26 @@ services:
     networks:
       - simplon-net
 
+  adonis-api:
+    container_name: "api"
+    build:
+      context: api
+      dockerfile: ./.docker/Dockerfile
+    image: "simplon/api:0.0.1"
+    environment:
+       HOME: /app
+    volumes:
+      - ./api:/app
+    restart : unless-stopped
+    ports:
+      - "0.0.0.0:3333:3333"
+    depends_on:
+      - postgres
+    networks:
+      - simplon-net
+
 networks:
   simplon-net:
+
+volumes:
+  data:

@@ -2,3 +2,4 @@
 /archives/**
 /Back-end/api/node_modules
 /Back-end/api/node_modules/**
+/Back-end/.env
