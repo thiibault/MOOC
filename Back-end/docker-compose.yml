@@ -9,7 +9,9 @@ services:
     image: "simplon/postgres:0.0.1"
     restart: always
     environment:
-      env_file : .env
+      POSTGRES_DB: simplon
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 2zerezGZEGZ55??
       PGDATA: /var/lib/postgresql/data
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
